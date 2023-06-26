@@ -1,0 +1,276 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+.navbar-fixed-top.scrolled {
+  background-color: #41464bb3 !important;
+  transition: background-color 300ms linear;
+}
+
+.background-img {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/tianyi-ma-WiONHd_zYI4-unsplash.jpg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  margin-top: 100px;
+  line-height: 2;
+}
+
+.background-img h1,
+h4 {
+  font-size: 2em;
+  color: #f8f9fa;
+}
+.background-img h4 {
+  margin-top: 80px;
+}
+
+.background-img p {
+  width: 450px;
+  text-align: center;
+  color: #f8f9fa;
+}
+.btn-cv {
+  background: #ff8533;
+  font-weight: 800;
+  cursor: pointer;
+}
+.btn-cv:hover {
+  background-color: #0aa428;
+  transition: all 1s;
+}
+.background-img h1,
+h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+.background-img h1 {
+  font-size: 3.5em;
+}
+.background-img h2 {
+  color: #888;
+  font-size: 1.5em;
+}
+.div-arrow-down {
+  display: flex;
+  flex-direction: column;
+  color: #888;
+  align-items: center;
+  margin-top: -200px;
+}
+.div-arrow-down a {
+  color: #888;
+  text-decoration: none;
+}
+.div-arrow-down a:hover {
+  color: #ff8533;
+}
+.arrow-down {
+  font-size: 40px;
+}
+.bounce {
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: bounce;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.about {
+  background-color: #191a1c;
+  border: 1px solid #ff8533;
+  padding: 4px;
+  overflow: scroll;
+}
+
+.about-img {
+  border: 1px solid #888;
+}
+.about-icons {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.about-icons a {
+  color: #888;
+}
+.about-icons a:hover {
+  color: #ff8533;
+}
+.arrow-to-home {
+  color: #888;
+  margin-right: 20px;
+  font-size: 40px;
+}
+.arrow-to-home:hover {
+  color: #ff8533;
+}
+.p-services {
+  width: 450px;
+  text-align: center;
+  color: #888888;
+}
+.services-h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px !important;
+}
+.box-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #888;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+.box-services:hover {
+  transform: scale(1.05, 1.05);
+  transition: all 0.6s;
+  background-color: #3d3d3d;
+}
+.box-services i {
+  font-size: 60px;
+  color: #ff8533;
+  margin-bottom: 20px;
+}
+.box-services p {
+  color: #888888;
+  width: 100%;
+  margin: 0 auto;
+  text-align: justify;
+}
+.preview1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*margin-top: 150px;*/
+}
+.preview1 p {
+  color: #888888;
+  width: 500px;
+  text-align: center;
+}
+.preview2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.preview2 img {
+  width: 80%;
+}
+.card-borders {
+  border: 2px solid #ff8533;
+  border-radius: 10px;
+}
+
+#clock {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+.clock {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/clock.png");
+  background-size: cover;
+  border: 1px solid #ff8533;
+  border-radius: 50%;
+}
+.clock:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #747474;
+  border-radius: 50%;
+  z-index: 99999;
+}
+.clock .hour,
+.clock .min,
+.clock .sec {
+  position: absolute;
+}
+.clock .hour,
+.hr {
+  width: 60px;
+  height: 40px;
+}
+.clock .min,
+.mn {
+  width: 90px;
+  height: 60px;
+}
+.clock .sec,
+.sc {
+  width: 130px;
+  height: 70px;
+}
+.hr,
+.mn,
+.sc {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+}
+.hr:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background: #ff8533;
+  z-index: 9;
+  border-radius: 6px 6px 0 0;
+}
+.mn:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: #ff8533;
+  z-index: 10;
+  border-radius: 6px 6px 0 0;
+}
+.sc:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.27);
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}

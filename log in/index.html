@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row" style="height: 100vh">
+                <div class="col-12 col-lg-6 mt-5" style="margin-left: 450px;z-index: 9999">
+                      <form novalidate class="needs-validation">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="form-group" >
+                                    <input class="form-control bg-dark text-light" type="text" placeholder="First Name" required>
+                                    <div class="invalid-feedback">please fill correctly</div>
+                                </div>
+
+                            </div>
+                            <div class="col-4">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <input readonly class="form-control bg-dark text-light" type="text" placeholder="Middle Name" required>
+                                    <div class="invalid-feedback">please fill correctly</div>
+                                </div>
+                                <!-------------------------------------------------</form>------------------------------------->
+                            </div>
+                            <div class="col-4">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <input class="form-control bg-dark text-light" type="text" placeholder="Last Name" required>
+                                    <div class="invalid-feedback">please fill correctly</div>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-12">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group input-group">
+                                   <div class="input-group-prepend">
+                                        <span class="input-group-text bg-warning text-light">exampel@sampel.com</span>
+                                    </div>
+                                    <input class="form-control bg-dark text-light" type="email" placeholder="E-mail" required>
+                                    <div class="invalid-feedback">incorrect E-mail</div>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-12">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-warning">+98...</span>
+                                    </div>
+                                    <input class="form-control bg-dark text-light" type="tel" placeholder="Phone Number" required>
+                                    <div class="invalid-feedback">please fill correctly</div>
+                                    <p>
+                                        please provide a valid phone number in order to verify your account.We will send you a verification code either via
+                                        SMS or voice message in order to confirm you own a phone number.
+                                    </p>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-6">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <input class="form-control bg-dark text-light" type="password" placeholder="Password" required>
+                                    <div class="invalid-feedback">please fill correctly</div>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-6">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <input class="form-control bg-dark text-light" type="password" placeholder="Confirm Password" required>
+                                    <div class="invalid-feedback">Your Confirm password is wrong </div>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-12">
+                                <!--                          <form>-->
+                                <div class="form-group">
+                                    <h2 class="h2info">Other Information</h2>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-6">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <label for="">Your Gender</label>
+                                    <select class="form-control custom-select bg-dark text-light">
+                                        <option value="">Male</option>
+                                        <option value="">Female</option>
+                                    </select>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-6">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <label for="">Birthday</label>
+                                    <input class="form-control bg-dark text-light" type="date" placeholder="Birthday" required>
+                                    <div class="invalid-feedback">please fill correctly</div>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-4">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <input class="form-control bg-dark text-light" type="text" placeholder="City" required>
+                                    <div class="invalid-feedback">please fill correctly</div>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-4">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <input class="form-control bg-dark text-light" type="text" placeholder="State" required>
+                                    <div class="invalid-feedback">please fill correctly</div>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-4">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="form-group">
+                                    <input class="form-control bg-dark text-light" type="number" placeholder="Zip Code" required>
+                                    <div class="invalid-feedback">Zip code is incorrect</div>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-8 mt-3 mb-3">
+                                <!--                          <form>-->
+                                <div class="form-group custom-file">
+                                    <label class="form-check-label custom-file-label">Select yor Photo</label>
+                                    <input class="form-control-type custom-file-input bg-dark text-light" type="file">
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <div class="col-12 mt-5">
+                                <!--                          <form novalidate class="needs-validation">-->
+                                <div class="custom-switch custom-control form-group">
+                                    <input id="chb" class="form-check-input custom-control-input" type="checkbox" required>
+                                    <div class="invalid-feedback">Accept the rules</div>
+                                    <label class="form-check-label custom-control-label" for="chb">I read and agree to term & conditions.</label>
+                                </div>
+                                <!--                          </form>-->
+                            </div>
+                            <button class="btn btn-block btn-danger ml-2">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="jquery-3.5.1.js"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+</html>
